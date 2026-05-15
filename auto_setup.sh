@@ -318,7 +318,16 @@ EOF
 
 
 echo "✅ Custom AI brain installed"
-
+echo "🔑 Configure your preferred AI provider:"
+echo ""
+echo "🚀 Groq (Recommended Default)"
+echo "   openclaw auth add openai --key YOUR_GROQ_API_KEY"
+echo ""
+echo "🧠 Google Gemini AI Studio"
+echo "   openclaw auth add google --key YOUR_GEMINI_API_KEY"
+echo ""
+echo "▶ Then start the gateway:"
+echo "   openclaw gateway"
 # =========================================================================
 # 🎉 Done!
 # =========================================================================
@@ -332,8 +341,4 @@ echo "   1. Open Shizuku app → make sure it says 'Shizuku is running'"
 echo "   2. Run: shizuku"
 echo "   3. Test: rish -c whoami"
 echo ""
-echo "🔑 Set up your API keys:"
-echo "   1. Run: openclaw onboard"
-echo "   2. Run: openclaw auth add google --key YOUR_GEMINI_KEY"
-echo "   3. Run: openclaw gateway"
-echo ""
+echo
